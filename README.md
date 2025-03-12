@@ -5,7 +5,8 @@
 
 *Alcance*
 - Pruebas Funcionales
-- Reporte de defectos en JIRA
+- Pruebas de Usabilidad
+- Pruebas en APIs
 
 *Funcionalidades a Probar*
 - Inicio de sesión de usuarios
@@ -13,9 +14,13 @@
 - Gestión del carrito y proceso de pago
 
 *Herramientas*
-- JIRA (para defectos)
-- Postman (para API)
-- Excel/Google Sheets (para test cases)
+- JIRA 
+- Postman
+- Google Sheets
 
 *Descripción:*
 - SauceDemo es una tienda en línea ficticia diseñada específicamente para prácticas de pruebas de automatización y manuales.
+
+*Notas:*
+- En SauceDemo no hay opción de "Registro", por lo que se harán pruebas con diferentes roles de usuario al iniciar sesión.
+- En SauceDemo no hay barra de búsqueda, pero se puede probar la funcionalidad de ordenamiento.
