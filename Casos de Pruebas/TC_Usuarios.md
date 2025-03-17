@@ -36,7 +36,7 @@
 *Resultado Esperado:*
 - El usuario es redirigido a la página de inicio de sesión.
 
-# 3️⃣: Cierre de Sesión de forma Interrumpida #
+# 3️⃣: Cierre de Sesión Interrumpido #
 
 *Precondiciones:*
 - El usuario debe estar autenticado en SauceDemo.

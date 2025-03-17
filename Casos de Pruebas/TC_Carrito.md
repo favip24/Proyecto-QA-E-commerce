@@ -10,7 +10,7 @@
 *Resultado Esperado:*
 - El producto aparece en la lista del carrito.
 
-# 2️⃣: Quitar Producto al Carrito #
+# 2️⃣: Quitar Producto del Carrito #
 
 *Precondiciones:*
 - Usuario autenticado.
@@ -50,3 +50,62 @@
 
 *Resultado Esperado:*
 - Se muestra el mensaje: "Thank you for your order!".
+
+# 5️⃣: Búsqueda de Productos por Palabras Claves #
+
+*Precondiciones:*
+- El usuario debe estar autenticado en la plataforma (si es necesario).
+- Debe haber productos en la base de datos con descripciones relevantes.
+
+*Pasos:*
+1. Acceder al sitio web o aplicación.
+2. Ubicar la barra de búsqueda.
+3. Ingresar una palabra clave relacionada con un producto.
+4. Presionar la tecla "Enter" o hacer clic en el botón de búsqueda.
+
+*Resultado Esperado:*
+- Se muestran productos que contienen la palabra clave en su nombre o descripción.
+
+# 6️⃣: Búsqueda Sin Resultados #
+
+*Precondiciones:*
+- El usuario debe estar en la página de búsqueda de productos.
+- No debe existir ningún producto que coincida con la palabra clave ingresada.
+
+*Pasos:*
+1. Acceder a la barra de búsqueda.
+2. Ingresar una palabra clave que no corresponda a ningún producto.
+3. Presionar "Enter" o hacer clic en el botón de búsqueda.
+
+*Resultado Esperado:*
+- El sistema muestra un mensaje informando que no hay productos disponibles para la búsqueda realizada.
+
+# 7️⃣: Combinación de Filtros #
+
+*Precondiciones:*
+- El usuario debe estar en la página de listado de productos.
+- Debe haber productos con diferentes categorías, precios y marcas en la base de datos.
+
+*Pasos:*
+1. Acceder a la página de búsqueda o catálogo de productos.
+2. Aplicar un filtro de categoría.
+3. Aplicar un filtro de precio dentro de un rango determinado.
+4. Aplicar un filtro por marca.
+5. Verificar los productos mostrados.
+
+*Resultado Esperado:*
+- Solo se muestran productos que cumplan con todos los filtros seleccionados.
+
+# 8️⃣: Restablecer Filtros #
+
+*Precondiciones:*
+- El usuario debe haber aplicado previamente filtros en la búsqueda de productos.
+
+*Pasos:*
+1. Ingresar a la página de productos.
+2. Aplicar varios filtros (categoría, precio, marca, etc.).
+3. Hacer clic en el botón "Restablecer filtros" o similar.
+4. Verificar la lista de productos.
+
+*Resultado Esperado:*
+- Se eliminan todos los filtros aplicados y se muestran nuevamente todos los productos disponibles en la plataforma.
